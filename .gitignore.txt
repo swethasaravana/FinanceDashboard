@@ -1,0 +1,25 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# Environment files
+appsettings.Development.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# EF migrations snapshot (optional keep migrations folder, ignore only temp)
+*.db

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PDzhi9+I7cuqzmhgizJIhqkW5vcobNHuNBpBJeSPgtY=",
+  "Source": "FinanceDashboardAPI",
+  "BasePath": "_content/FinanceDashboardAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

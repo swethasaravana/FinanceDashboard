@@ -1,0 +1,222 @@
+[
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.AdminController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Admin/create-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinanceDashboardAPI.Models.DTOs.CreateUserByAdminDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.AdminController",
+    "Method": "ToggleUser",
+    "RelativePath": "api/Admin/toggle-user/{userid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.AdminController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Admin/update-role/{userid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "FinanceDashboardAPI.Models.DTOs.UpdateUserRoleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.AdminController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinanceDashboardAPI.Models.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinanceDashboardAPI.Models.DTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.DashboardController",
+    "Method": "GetAllDashboard",
+    "RelativePath": "api/Dashboard/all-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.DashboardController",
+    "Method": "GetMyDashboard",
+    "RelativePath": "api/Dashboard/my-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "Update",
+    "RelativePath": "api/FinancialRecord/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "FinanceDashboardAPI.Models.DTOs.UpdateRecordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "Delete",
+    "RelativePath": "api/FinancialRecord/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "GetById",
+    "RelativePath": "api/FinancialRecord/{recordid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recordid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "Create",
+    "RelativePath": "api/FinancialRecord/Create Record",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinanceDashboardAPI.Models.DTOs.CreateRecordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "GetAll",
+    "RelativePath": "api/FinancialRecord/Get Records",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "GetMyRecords",
+    "RelativePath": "api/FinancialRecord/my-records",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceDashboardAPI.Controllers.FinancialRecordController",
+    "Method": "GetByUser",
+    "RelativePath": "api/FinancialRecord/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
