@@ -29,6 +29,6 @@ JWT Authentication
 Swagger
 
 Roles
-Viewer -	Create & view own records
-Analyst -	Same as Viewer
-Admin -	Full access
+1. Viewer -	Create & view own records
+2. Analyst -	Same as Viewer
+3. Admin -	Full access
