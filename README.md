@@ -21,7 +21,7 @@ Total Expense
 Net Balance
 Category-wise summary
 
-Tech Stack
+Tech Stack:
 ASP.NET Core Web API
 Entity Framework Core
 SQL Server
@@ -29,7 +29,6 @@ JWT Authentication
 Swagger
 
 Roles
-Role	  Access
-Viewer	Create & view own records
-Analyst	Same as Viewer
-Admin	  Full access
+Viewer -	Create & view own records
+Analyst -	Same as Viewer
+Admin -	Full access
